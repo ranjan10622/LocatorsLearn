@@ -10,7 +10,7 @@ public class Locators3 {
 
 	public static void main(String[] args) {
 		
-		
+		// locator using the different and extended locators
 		WebDriver driver = new ChromeDriver();
 	    driver.manage().window().maximize();
 	   driver.get("https://rahulshettyacademy.com/AutomationPractice/");
