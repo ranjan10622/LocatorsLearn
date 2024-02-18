@@ -1,6 +1,7 @@
 package com.selenium.collections;
 
 import java.util.HashSet;
+import java.util.Iterator;
 
 public class HashSetExample {
 
@@ -19,6 +20,13 @@ public class HashSetExample {
 		     System.out.println(hs);
 		    System.out.println(hs.isEmpty());
 		    
+		    //iterator concept
+		    
+		    Iterator<String> i = hs.iterator();
+		     while(i.hasNext())
+		     {
+		    	 System.out.println(i.next());
+		     }
 		 
 		      
 
