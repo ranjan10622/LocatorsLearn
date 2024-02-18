@@ -31,6 +31,12 @@ public class ArrayListExample {
 		System.out.println(str.get(2));
 		
 		System.out.println(str.contains("baba"));
+		
+		System.out.println(str.indexOf("Java"));
+		
+		System.out.println(str.isEmpty());
+		
+		System.out.println(str.size());
 
 	}
 
